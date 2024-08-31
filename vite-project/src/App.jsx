@@ -6,11 +6,13 @@ import Projects from './pages/Projects';  // PascalCase for React component
 import About from './pages/About';  // PascalCase for React component
 import Home from './pages/Home';  // PascalCase for React component
 import Dashboard from './pages/Dashboard';  // PascalCase for React component
+import Header from './Components/Header';
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Routes>
+    <Header/>
+    <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />  // PascalCase component
