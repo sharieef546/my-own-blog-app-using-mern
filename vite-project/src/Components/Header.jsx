@@ -40,7 +40,7 @@ export default function Header() {
 
           {/* Sign In Button */}
           <Link to="/signin">
-            <Button gradientDuoTone="red-to-blue" className="ml-2">
+            <Button gradientDuoTone="red-to-blue" outline className="p-3">
               Sign In
             </Button>
           </Link>
